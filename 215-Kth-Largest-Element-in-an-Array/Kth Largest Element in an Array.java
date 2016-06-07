@@ -11,6 +11,8 @@ public class Solution {
                if (o1.equals(o2)) {
                    return 0;
                }
+               // minHeap: o1 < o2 ? -1 : 1
+               // maxHeap: o1 > ? -1 : 1
                return o1 < o2 ? -1 : 1;
            }
         });
